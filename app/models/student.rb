@@ -1,7 +1,7 @@
 class Student < ActiveRecord::Base
 
   def to_s
-    puts "#{first_name} #{last_name}"
+    "#{first_name} #{last_name}"
   end
-  binding.pry
+
 end
